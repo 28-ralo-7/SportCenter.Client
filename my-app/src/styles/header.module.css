@@ -1,0 +1,36 @@
+.header{
+    height: 100px;
+    background: black;
+    color: white;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0px 10px 0px 10px;
+    z-index: 1;
+
+}
+
+.title{
+    color: white;
+    font-size: 32px;
+    margin-left: 50px;
+    margin-top: 25px;
+    text-decoration: inherit;
+    font-weight: bold;
+}
+
+.logo{
+    background: white;
+    margin: 5px;
+    border-radius: 100px;
+
+}
+
+.header_nav{
+    margin-top: 25px;
+    margin-right: 100px;
+}
+.header_nav button:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,37 @@
+.content{
+    padding-top: 300px;
+    padding-left: 300px;
+    width: 30%;
+}
+
+.page{
+    background: darkgrey;
+    background-image: url("../image/logo.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 1000px;
+}
+
+.textAbout {
+    background: black;
+    color: white;
+    padding: 20px;
+    border: 3px solid white;
+}
+
+.booking_button{
+    background: black;
+    color: white;
+    border: 3px solid white;
+    width: 400px;
+    height: 70px;
+    margin-top: 100px;
+    margin-left: 80px;
+    font-size: 30px;
+}
+
+.booking_button:hover{
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+}
